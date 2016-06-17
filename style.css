@@ -1,0 +1,73 @@
+
+	h1 {
+		color: rgb(2,132,130);
+		margin: 0 auto;
+	}
+	h2 {
+		color: #ffd700;
+		margin: 0 auto;
+	}
+	.board {
+		height:50%;
+		width:50%;
+		display:inline-block;
+		margin: 8%;
+		float: left;
+		padding: 0;
+	}
+	.card {
+		height: 200px;
+		width: 150px;
+		border: solid black 1px;
+		border-radius: 10px;
+		background-color: yellow;
+	}
+	.name {
+		color: #ff0000;
+		font-weight: bold;
+	}
+	.one {
+		float: left;
+		margin: 30px;
+	}
+	.two {
+		float: right;
+		margin: 30px;
+	}
+	.bar {
+		background-color: #808080;
+		height: 10px;
+		width: 100%;
+		margin: 10px 0 30px 0;
+	}
+	nav {
+		background-color: #808080;
+		width: 100%;
+	}
+	a {
+		background-color: #ffbf00;
+		color: white;
+		padding: 35px;
+		display: block;
+		float: left;
+		text-decoration: none;
+	}
+	footer {
+		background-color: #808080;
+		margin: 0 auto;
+		clear: both;
+	}
+	header {
+		margin: 0 auto;
+	}
+	p {
+		margin: 0 auto;
+	}
+	.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
